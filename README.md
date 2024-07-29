@@ -7,62 +7,67 @@
 ## Python
 - Tratamento dos dados: Pandas
 - Biblioteca de Machine Learning: Sklearn
-- Biblioteca de seleção de Features: SelectKBest e F_classifier 
-- Bibliotecas de pré processamentos: Imblearn e Sklearn
+- Ferramentas de seleção de Features: Chi² e F_classifier 
+- Ferramentas de pré processamentos: SMOTE e Normalize
 - Gráficos: Seaborn e Matplotlib
 
 ## Base de dados utilizado
-  A base de dados é pública e foi retirada no site da UCI Machine Learning Repository:
+Title: Rapid Alzheimer's Disease Diagnosis Using Advanced Artificial Intelligence Algorithms
 
-Cortez,Paulo, Cerdeira,A., Almeida,F., Matos,T., and Reis,J.. (2009). Wine Quality. UCI Machine Learning Repository. https://doi.org/10.24432/C56S3T.
+DOI: 10.38124/ijisrt/IJISRT24JUN1915
 
 # Resultados
-Após todos os tramentos e pré processamento dos dados, foi refeita os modelos de de SVC e Logistic Regression, assim, para poder validar e veriicar qual dos modelos a serem utilizados, foi calculado o a curva ROC e a pontuação AUC.
+
 <div align="center">
 <img src="https://github.com/renanwta/Red-Wine/assets/161327900/caf9aec9-482b-4fc0-9037-c08f5ed6d716" width="500px" />
 </div>
-Para a curva ROC do modelo de SVC temos que a pontuação AUC foi de 85%
-
-<div align="center">
-<img src="https://github.com/renanwta/Red-Wine/assets/161327900/c22ff154-8ec6-4518-884e-5093a1bb52c3" width="500px" />
-</div>
-Já para a curva ROC do modelo de SVC temos que a pontuação AUC foi de 81%
-
-
-Assim dizemos que o melhor modelo a ser utilziado será o modelo de SVC para prever as classes da qualidade do vinho
 
 
 # Step by Step
 1. Importação dos dados
 2. Conhecendo os dados
+3. Tratamento de dados
 
-   2.1 Observando os Outliers
+   3.1 Observando os Outliers
    
-   2.2 Tratando os Outliers
+   3.2 Matriz de correlação
    
-   2.3 Histograma após o tratamento
+4. Seleção de features
+   4.1 Seleção de Feeatures com f_classif
 
-3. Selecionando as features
+   4.2 Seleção de Features com Chi²
 
-   3.1 Encontrando as Colunas
+   4.3 Juntado as features
 
-4. Criação dos modelo Suport Vetorial Classification - SVC
+5. Observando o balanço do Target
    
-   4.1 Cálculo do base line
+   5.1 Balanceando o Dataset
    
-5. Criação dos modelo Logistic Regression
+6. Normalização dos dados
    
-   5.1 Cálculo do base line
-
-6. Primeira Conclusão
-7. Rebalanceamento dos dados da variável dependente
-8. Novo Modelo de SVC
+7. Criando Modelos de Machine Learning
    
- 8.1 Cálculo da Curva ROC e pontuação AUC
- 
-9. Novo Modelo de Logistic Regression
+   7.1 Logistic Regression
+   
+        7.1.1 Cross Validation Logistic Regression
+   
+        7.1.2 Cruva ROC e AUC
+   
+   7.2 SVC
+   
+        7.2.1 Cross Validation SVC
+   
+        7.2.2 Cruva ROC e AUC
 
-    9.1 Cálculo da Curva ROC e pontuação AUC
+   7.3 RandomForestClassifier
+   
+        7.2.1 Cross Validation RandomForestClassifier
+   
+        7.2.2 Cruva ROC e AUC
+   
+   7.4 Escolhendo o modelo
 
-10. Segunda Conclusão
-11. Cálculo Pontuais
+8. Analisando os Hiperparamentros
+   8.1 Validação do modelo com Nested Score Validation
+
+9. Resultados e Análises
