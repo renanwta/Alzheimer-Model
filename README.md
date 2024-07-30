@@ -1,7 +1,7 @@
 # Alzheimer-Model
 
 # Sobre
-
+O objetivo deste projeto foi criar um modelo preditivo capaz de detectar a possível presença dessa doença utilizando dados como características demográficas, estilo de vida, histórico médico, avaliação funcional e cognitiva, além dos sintomas do paciente. Isso permite que, mesmo na ausência dos sintomas mais leves, o modelo possa identificar a probabilidade de o paciente desenvolver a doença antes do aparecimento dos sintomas. 
 
 # Ferramentas
 ## Python
@@ -26,6 +26,12 @@ A Seleção do modelo foi feito baseado nos resultado das pontuação AUC, curva
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/03bbd24b-e8b0-4716-a3d7-782625e88dc3" width="500px" />
+</div>
+
+
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/5a5af5fe-3517-421f-86dd-f69c5707f068" width="200px" />
 </div>
 
 
