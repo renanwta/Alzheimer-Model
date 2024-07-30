@@ -25,7 +25,7 @@ A Seleção do modelo foi feito baseado nos resultado das pontuação AUC, curva
 
 
 <div align="center">
-<img src="https://github.com/renanwta/Red-Wine/assets/161327900/caf9aec9-482b-4fc0-9037-c08f5ed6d716" width="500px" />
+<img src="https://github.com/user-attachments/assets/03bbd24b-e8b0-4716-a3d7-782625e88dc3" width="500px" />
 </div>
 
 
