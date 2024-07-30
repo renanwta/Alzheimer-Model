@@ -18,6 +18,8 @@ DOI: 10.38124/ijisrt/IJISRT24JUN1915
 
 # Resultados
 
+
+
 <div align="center">
 <img src="https://github.com/renanwta/Red-Wine/assets/161327900/caf9aec9-482b-4fc0-9037-c08f5ed6d716" width="500px" />
 </div>
