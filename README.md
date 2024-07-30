@@ -10,13 +10,17 @@
 - Ferramentas de seleção de Features: Chi² e F_classifier 
 - Ferramentas de pré processamentos: SMOTE e Normalize
 - Gráficos: Seaborn e Matplotlib
+- Modelos de ML: Logistic Regression, SupportVetorialClassifier (SVC) e RandomForestClassifier
 
+ 
 ## Base de dados utilizado
 Title: Rapid Alzheimer's Disease Diagnosis Using Advanced Artificial Intelligence Algorithms
 
 DOI: 10.38124/ijisrt/IJISRT24JUN1915
 
 # Resultados
+
+A Seleção do modelo foi feito baseado nos resultado das pontuação AUC, curva ROC e com os valores do Cross-Validation entre cada um dos modelos. Assim, análisando os resultados, foi selecionado o modelos de RCF já que possui a curva mais acentuada, o valor de AUC maior e com a média de accurácia maior em relação aos outros modelos.
 
 
 
